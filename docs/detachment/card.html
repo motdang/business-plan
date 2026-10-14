@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>card</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+html,body{margin:0;width:1200px;height:630px;overflow:hidden;background:#12151B;color:#E4DECF}
+.c{position:relative;width:1200px;height:630px;display:grid;grid-template-columns:520px 1fr;align-items:center}
+svg{width:470px;height:470px;justify-self:center}
+.t{display:flex;flex-direction:column;gap:22px;padding-right:70px}
+.k{font-family:'IBM Plex Mono',monospace;font-size:20px;letter-spacing:5px;text-transform:uppercase;color:#D2AE52;margin:0}
+h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;font-size:92px;line-height:.98;margin:0}
+.b{font-family:'Cormorant Garamond',Georgia,serif;font-style:italic;font-weight:500;font-size:54px;color:#D2AE52;margin:0}
+.s{font-family:'IBM Plex Mono',monospace;font-size:20px;color:#B3AD9F;margin:0}
+</style>
+</head>
+<body>
+<div class="c">
+<svg viewBox="0 0 760 760" aria-hidden="true"><defs><g id="e"><path d="M-30 0 Q0 -22 30 0 Q0 22 -30 0Z" fill="#E4DECF" stroke="#D2AE52" stroke-width="3"/><circle r="10" fill="#D2AE52"/><circle r="4" fill="#12151B"/></g></defs><circle cx="380" cy="380" r="340" fill="none" stroke="#D2AE52" stroke-width="4"/><circle cx="380" cy="380" r="235" fill="none" stroke="#D2AE52" stroke-width="3"/><circle cx="380" cy="380" r="130" fill="none" stroke="#D2AE52" stroke-width="3"/><ellipse cx="380" cy="380" rx="340" ry="120" fill="none" stroke="#8FB0EA" stroke-width="3" transform="rotate(35 380 380)"/><ellipse cx="380" cy="380" rx="340" ry="120" fill="none" stroke="#8FB0EA" stroke-width="3" transform="rotate(-35 380 380)"/><g id="ring"></g><use href="#e" transform="translate(380 380) scale(1.8)"/></svg>
+<div class="t">
+<p class="k" id="k">A short story · NaNoBotCo</p>
+<h1 id="h">Detachment <span style="white-space:nowrap">48–49</span></h1>
+<p class="b" id="b">Be not afraid.</p>
+<p class="s" id="s">Fuck-you money, hill legends, wheels full of eyes.</p>
+</div>
+</div>
+<script>
+var ring=document.getElementById("ring"),ns="http://www.w3.org/2000/svg";
+[[40,30,0],[145,45,22.5],[250,60,0]].forEach(function(r){for(var a=r[2];a<360+r[2];a+=r[1]){var u=document.createElementNS(ns,"use");u.setAttribute("href","#e");u.setAttribute("transform","rotate("+a+" 380 380) translate(380 "+r[0]+")");ring.appendChild(u);}});
+if(location.search.indexOf("plan")>-1){document.getElementById("k").textContent="motdang.net Co., Ltd. · Chiang Rai";document.getElementById("h").textContent="motdang Business Plan";document.getElementById("b").textContent="Maximize shareholder value.";document.getElementById("s").textContent="Lines of business, prices, status, market.";}
+document.fonts.ready.then(function(){document.body.setAttribute("data-done","1");});
+</script>
+</body>
+</html>
