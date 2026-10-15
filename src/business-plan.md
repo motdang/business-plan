@@ -33,6 +33,8 @@ The same gap is wider for the 4.6 million Myanmar people living in Thailand ([IO
 
 What a helper does, in ten verbs: knows who · knows the fair price · knows what is open now · calls in Thai · tells you what to say · tells you what to bring · reads Thai · pays the Thai way · comes with you · sorts it out when it goes wrong.
 
+**The last verb, 13–15 October 2026.** NaN's house needed drains cleared and a light circuit looked at. Beer booked a handyman. He came late on the 13th. On the 15th he did not come; Beer called him, heard he would be late again, and dropped him: "This guy is so weird, not communicat and I'm not trusting him anymore." She is finding another. A directory lists a handyman. It cannot see that he has stopped being worth the wait, or decide at 10 a.m. to go find a better one. That call is what a helper is paid for, and a listing site does not make it.
+
 ## Built and live
 
 The map, the payment pages and three priced services are live; revenue waits on payment being switched on and on people finding us. Counts as of 14 October 2026.
