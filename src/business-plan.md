@@ -227,7 +227,8 @@ motdang asks for ฿35M (about US$1.06M) in three draws, for 10% of monthly reve
 | Stops at | 3× the money drawn (฿105M if all three draws) |
 | Revenue means | fees, spreads and sales motdang keeps; money carried for senders is not revenue |
 | Paid | monthly, automatically, with a statement of revenue and each investor's share |
-| Smallest cheque | ฿1M (about US$30,000) |
+| Smallest cheque | ฿100,000 (about US$3,000), on a ladder ฿100,000 · ฿200,000 · ฿500,000 · ฿1,000,000; on the 1st, while a draw is open, 80% or more of it promised moves it up a rung, under 60% down a rung |
+| Smaller | a founding membership at sites.motdang.net/founders: prepaid Gold, two Gold years and a number on the wall, ฿2,000–5,000 on its own ladder; not a share |
 | Later draws | each investor joins draws 2 and 3 when the target is met, or may step out if a target is not met within 12 months of signing |
 | Ownership | unchanged: Beer 51%; investors hold a revenue right, not shares |
 | Paper | counsel drafts one agreement for every investor |
@@ -242,6 +243,8 @@ motdang asks for ฿35M (about US$1.06M) in three draws, for 10% of monthly reve
 | Strategic: maps, ride and delivery apps | ground-truth data in Thai and Latin letters, weekly | Revenue (data licences) |
 | AI labs and answer engines | the places, prices and names their agents already read | Customers (machines) |
 | Fintech | a remittance and payment rail on the Thailand–Myanmar corridor | Financials (remittance) |
+
+**16 October 2026.** NaN: the smallest cheque ฿100,000 on a Shoup ladder, and the founding membership beside it.
 
 **Settled, 14 October 2026.** NaN: ฿35M, a share of revenue, Beer's 51% shown, three draws. The terms above, one copy of this plan with the mission on page one, and sharing by link with named investors only (no public posting of the offer) were set on NaN's word to decide them.
 
