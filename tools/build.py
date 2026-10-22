@@ -5,10 +5,12 @@ Each document keeps its own source folder; this copies the public build of each 
 renders the full plan from src/business-plan.md, renders The Wheels from its slide files, and writes
 the index. Run it again after any source changes, then publish with pr-push.
 """
-import html, json, re, shutil
+import html, json, re, shutil, sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import ogcards  # noqa: E402
 P = ROOT.parent
 DOCS = ROOT / "docs"
 BASE = "https://motdang.github.io/business-plan/"
@@ -292,6 +294,8 @@ if __name__ == "__main__":
     build_plan()
     build_wheels()
     build_index()
+    ogcards.copy(ROOT, DOCS)
+    ogcards.apply_tree(DOCS, BASE)
     (DOCS / "icon.svg").write_text(ICON)
     (DOCS / ".nojekyll").write_text("")
     print("built", sorted(p.name for p in DOCS.iterdir()))
