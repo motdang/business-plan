@@ -11,7 +11,7 @@ The short version, as toys in five languages: [The Red Ant Plan](https://claude.
 |  |  |
 | --- | --- |
 | Company | motdang.net Co., Ltd. (บริษัท มดแดง.เน็ท จำกัด), Thai, DBD 0575569006139, registered 22 September 2026 |
-| Registered capital | ฿5,000,000 |
+| Registered capital | ฿5,000,000, which the company cannot access |
 | Shop | 48–49 Thai Wiwat Alley, Chiang Rai |
 | Trading names | motdang.net · Hongdam (hongdam.net) · Chiang Mai Visa Desk (chiangmaivisadesk.com) |
 | Cities on the map | Chiang Mai, Chiang Rai, Pathum Thani, Phnom Penh |
@@ -153,7 +153,7 @@ The shaded goals are NaN's cards on the team road map; the steps above them are 
 
 ## Financials
 
-With ฿35M, year one aims at ฿28.8M a month in revenue by month 12: about ฿345M a year, ten times the raise. Today motdang spends about ฿61,000 a month and earns nothing. Amounts in baht; US$1 ≈ ฿33, assumed.
+With ฿35M, year one aims at ฿28.8M a month in revenue by month 12: about ฿345M a year, ten times the raise. Today motdang spends about ฿61,000 a month and earns nothing. Its ฿5,000,000 of registered capital cannot be accessed. Amounts in baht; US$1 ≈ ฿33, assumed.
 
 **Year one on ฿35M: world domination, itemised.** Targets, not forecasts; each volume is a stated assumption.
 
