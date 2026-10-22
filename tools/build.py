@@ -18,7 +18,6 @@ CARD_V = 1
 
 COPIES = {  # slug: public build folder of each document
     "red-ant": P / "red-ant-plan-motdang/docs",
-    "detachment": P / "detachment-48-49/docs",
     "the-plan": P / "the-plan/docs",
     "brief": P / "motdang-deck/dist",
 }
@@ -31,10 +30,6 @@ DOCS_LIST = [  # newest first
      "The same plan as toys you tap, in English, Thai, Burmese, Chinese and Khmer."),
     ("wheels/", "The Wheels", "14 October 2026",
      "The plan as a 16-slide deck: wheels within wheels, full of eyes."),
-    ("detachment/", "Detachment 48–49", "14 October 2026",
-     "The plan as a short story, with an investor sheet beside it."),
-    ("detachment/plan.html", "Detachment: the investor sheet", "14 October 2026",
-     "Company facts, lines of business with price and status, market numbers."),
     ("the-plan/", "The Plan · แผนมดแดง", "27 September 2026",
      "The 23-slide pitch deck: Indra's net, robots as the audience, a baht-billion goal."),
     ("brief/", "The brief", "13 August 2026",
@@ -275,7 +270,7 @@ def build_index():
 .docs .d{display:block;color:var(--quiet);font-size:13px;margin:4px 0 6px}
 .docs .l{display:block;font-size:16px}
 """
-    desc = "Every version of motdang's business plan in one place: the full plan, the Red Ant Plan, The Wheels, Detachment 48–49, The Plan and the brief."
+    desc = "Every version of motdang's business plan in one place: the full plan, the Red Ant Plan, The Wheels, The Plan and the brief."
     page = (head("motdang business plan", desc, BASE, css)
             + f'<body><main><h1>{ANT} motdang business plan</h1>'
             + '<p class="by">motdang.net Co., Ltd. · 48–49 Thai Wiwat Alley, Chiang Rai · every version, newest first</p>'

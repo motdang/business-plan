@@ -6,7 +6,6 @@ Her ask 2026-10-14: "take all the business plan documents and put it in the motd
 docs/plan/        the full plan, from src/business-plan.md (the Claude Docs plan, exported 14 Oct, rev 40)
 docs/red-ant/     The Red Ant Plan      ← ../red-ant-plan-motdang/docs
 docs/wheels/      The Wheels deck       ← ../motdang-roadmap/wheels/deck/project
-docs/detachment/  Detachment 48–49 + plan.html ← ../detachment-48-49/docs
 docs/the-plan/    The Plan (27 Sep)     ← ../the-plan/docs
 docs/brief/       the brief (13 Aug)    ← ../motdang-deck/dist
 
