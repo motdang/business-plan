@@ -19,7 +19,9 @@ The short version, as toys in five languages: [The Red Ant Plan](https://claude.
 | Revenue to date | ฿0 |
 | Running cost | about ฿60,000 a month (see Financials) |
 
-**Mission:** fuck-you money. **Mood:** weird. **Byproduct:** people in the Mekong countries who are harder to erase, because they are paid, papered, mapped and on record. Every line of business below makes money first; the byproduct rides along.
+<!-- คาถา · katha: fuck-you money -->
+
+**Mood:** weird. **Byproduct:** people in the Mekong countries who are harder to erase, because they are paid, papered, mapped and on record. Every line of business below makes money first; the byproduct rides along.
 
 ## Problem
 
