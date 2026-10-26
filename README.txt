@@ -7,7 +7,6 @@ docs/plan/        the full plan, from src/business-plan.md (the Claude Docs plan
 docs/red-ant/     The Red Ant Plan      ← ../red-ant-plan-motdang/docs
 docs/wheels/      The Wheels deck       ← ../motdang-roadmap/wheels/deck/project
 docs/the-plan/    The Plan (27 Sep)     ← ../the-plan/docs
-docs/brief/       the brief (13 Aug)    ← ../motdang-deck/dist
 
 Rebuild: python3 tools/build.py   (re-copies every source, re-renders plan, wheels and the index)
 Public copy of the plan leaves out the itemised running-cost table and the internal note on how the terms were set.
