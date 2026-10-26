@@ -19,7 +19,6 @@ CARD_V = 1
 COPIES = {  # slug: public build folder of each document
     "red-ant": P / "red-ant-plan-motdang/docs",
     "the-plan": P / "the-plan/docs",
-    "brief": P / "motdang-deck/dist",
 }
 WHEELS = P / "motdang-roadmap/wheels/deck/project"
 
@@ -32,8 +31,6 @@ DOCS_LIST = [  # newest first
      "The plan as a 16-slide deck: wheels within wheels, full of eyes."),
     ("the-plan/", "The Plan · แผนมดแดง", "27 September 2026",
      "The 23-slide pitch deck: Indra's net, robots as the audience, a baht-billion goal."),
-    ("brief/", "The brief", "13 August 2026",
-     "The first investor deck: “I am the product.” No number on it."),
 ]
 
 BACK = ('<a href="{href}" style="position:fixed;right:12px;bottom:12px;z-index:2147483647;'
@@ -270,7 +267,7 @@ def build_index():
 .docs .d{display:block;color:var(--quiet);font-size:13px;margin:4px 0 6px}
 .docs .l{display:block;font-size:16px}
 """
-    desc = "Every version of motdang's business plan in one place: the full plan, the Red Ant Plan, The Wheels, The Plan and the brief."
+    desc = "Every version of motdang's business plan in one place: the full plan, the Red Ant Plan, The Wheels and The Plan."
     page = (head("motdang business plan", desc, BASE, css)
             + f'<body><main><h1>{ANT} motdang business plan</h1>'
             + '<p class="by">motdang.net Co., Ltd. · 48–49 Thai Wiwat Alley, Chiang Rai · every version, newest first</p>'
